@@ -1,0 +1,125 @@
+/* height: 100vh; */
+.add__product__section {
+  width: 100%;
+  margin: 0px;
+  background-color: var(--field-color);
+  padding: 2rem 4rem;
+}
+.admin_product {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.add_product_form {
+  background-color: var(--white-color);
+  /* border: 1px solid var(--text-color); */
+  border-width: thin;
+  width: 40rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+  padding: 2rem 0px 4rem 0px;
+}
+.add_product_heading {
+  /* border: 2px solid; */
+  font-size: 2rem;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.form__hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3rem;
+}
+.form__hero input,
+.form__hero select {
+  background-color: transparent;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  font-family: Rubik;
+  padding: 0px 10px;
+  color: var(--text-color);
+  border: 2px solid rgb(220, 211, 211);
+  border-width: thin;
+  position: relative;
+  outline: none;
+}
+.form__hero:last-child {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.add_product__reset_btn,
+.add_product__submit_btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  outline: none;
+  height: 3rem;
+  width: 11rem;
+  font-size: 20px;
+  font-family: rubik;
+  /* font-weight: bold; */
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.add_product__reset_btn {
+  background: linear-gradient(to right, #ae0000, #aaaa7c);
+}
+.add_product__submit_btn {
+  background: linear-gradient(to right, rgb(255 35 35), rgb(170, 170, 124));
+}
+.label__hero {
+  font-size: 16px;
+  font-family: "Poppins";
+  padding: 6px 0rem;
+  font-weight: bolder;
+}
+/* .label__hero span {
+  color: var(--text-color);
+} */
+.required__field {
+  font-size: 12px;
+  font-family: Rubik;
+  margin-top: 7px;
+  color: red;
+}
+.add__product__heading__cyprus {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+.add__product__heading__cyprus button {
+  border: #007bff;
+  background: #007bff;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  padding: 0px 2px;
+  margin: 7px 0px;
+  font-family: sans-serif;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.add__product__heading__cyprus button:hover {
+  background-color: #075db9;
+  color: #fff;
+}

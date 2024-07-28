@@ -1,0 +1,300 @@
+.model-wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0 0 0 / 30%);
+}
+.model-container {
+  z-index: 999999999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.booking-form {
+  background-color: white;
+  border: 2px solid white;
+  /* border: 2px solid #ffeae6; */
+  height: 100vh;
+  width: 60%;
+  margin: 3rem auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.booking-form::-webkit-scrollbar {
+  width: 10px;
+}
+
+.booking-form::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+}
+
+.booking-form::-webkit-scrollbar-thumb {
+  background: #ff4d30;
+  border-radius: 25px;
+}
+.booking-form-container {
+  /* border: 2px solid; */
+  width: 100%;
+  height: 100%;
+}
+.booking-form-content {
+  /* border: 2px solid; */
+  width: 100%;
+  height: 100%;
+}
+#hero__one {
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 3.8rem;
+  background-color: var(--btn-background-color);
+  color: var(--white-color);
+  font-family: Poppins;
+}
+#close-icon {
+  font-size: 35px;
+  stroke: var(--white-color);
+  stroke-width: 1px;
+  cursor: pointer;
+}
+#hero__two {
+  /* border: 2px solid; */
+  height: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+  background-color: #ffeae6;
+  font-family: poppins;
+  gap: 21px;
+  padding: 14px 130px 14px 25px;
+  line-height: 34px;
+}
+.hero__three__details__heading {
+  color: var(--btn-background-color);
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.hero__two__para {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--btn-background-color);
+  font-size: 21px;
+}
+.hero__two__message {
+  font-size: 18px;
+  font-family: Rubik;
+  font-weight: 700;
+  color: var(--text-color);
+}
+#hero__three {
+  display: flex;
+  /* border: 2px solid; */
+  padding: 2rem 2rem;
+  height: 31rem;
+  border-bottom: 1px solid var(--text-color);
+}
+#hero__three .hero__three__details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 25rem;
+  width: 42%;
+  /* border: 2px solid; */
+}
+.hero__three__details_present {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Poppins;
+}
+.hero__three__details_present h1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+}
+.hero__three__details_present div {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 2px 8px 29px;
+  color: var(--text-color);
+  font-family: Rubik;
+}
+.hero__three__details_present div input,
+#PickUpLocation_form,
+#DropOffLocation_form {
+  font-size: 1rem;
+  width: 10rem;
+  font-family: Rubik;
+  padding: 0px 10px;
+  color: var(--text-color);
+  border: 2px solid rgb(208 189 189);
+  position: relative;
+  /* top: 1rem; */
+  outline: none;
+  height: 1.9rem;
+}
+#PickUpLocation_form,
+#DropOffLocation_form {
+  width: 20rem;
+  margin: 8px 2px 8px 29px;
+}
+.hero__three__car-details {
+  /* border: 2px solid; */
+  width: 32.8rem;
+  height: 30.2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: poppins;
+  font-size: 14px;
+}
+.hero__three__car-details h1 {
+  color: var(--btn-background-color);
+  padding: 0px 40px;
+}
+.hero__three__car-details span {
+  color: var(--black-color);
+}
+.hero__three__car-details img {
+  /* border: 2px solid; */
+  margin: 3rem auto;
+  width: 22.8rem;
+  height: 18.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero__forth {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 100%;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+#hero__forth__details__heading {
+  color: var(--btn-background-color);
+  font-family: "Poppins";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.hero__forth_personal_details_form {
+  margin-top: 30px;
+  /* border: 2px solid; */
+  height: 48rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero__forth_personal_details_form__sub {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__forth_personal_details_form__sub div {
+  display: flex;
+  /* border: 2px solid; */
+  flex-direction: column;
+  gap: 8px;
+  width: 25rem;
+  height: 100%;
+}
+.hero__forth_personal_details_form__sub div label {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Rubik";
+}
+.hero__forth_personal_details_form__sub div label span {
+  padding: 0px 5px;
+}
+.hero__forth_personal_details_form__sub div input {
+  height: 3rem;
+  font-size: 1rem;
+  background-color: #dbdbdb;
+  color: var(--black-color);
+  width: 25rem;
+  font-family: Rubik;
+  padding: 0px 10px;
+  border: 2px solid rgb(220, 211, 211);
+  position: relative;
+  outline: none;
+}
+/* .hero__forth_personal_details_form__sub div p {
+  color: var(--black-color);
+  font-size: 10px;
+  font-family: "Rubik";
+} */
+.hero__forth_personal_details_form__sub:nth-child(4) input,
+.hero__forth_personal_details_form__sub:nth-child(3) input {
+  width: 52.5rem;
+}
+.hero__forth_personal_details_form__sub:nth-child(5) {
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0 2px;
+}
+.hero__forth_personal_details_form__sub:nth-child(5) input {
+  transform: scale(1.4);
+}
+.hero__forth_personal_details_form__sub:nth-child(5) p {
+  color: var(--text-color);
+  font-family: Rubik;
+}
+.hero__forth_personal_details_form__sub:nth-child(6) {
+  height: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* border: 2px solid; */
+}
+.hero__forth_personal_details_form__sub:nth-child(6) button {
+  border: none;
+  background-color: transparent;
+  height: 4.2rem;
+  width: 14rem;
+  border-radius: 42px;
+  font-size: 18px;
+  /* letter-spacing: 1px; */
+  text-transform: uppercase;
+  font-family: Rubik;
+  cursor: pointer;
+  font-weight: 900;
+}
+.hero__forth_personal_details_form__sub:nth-child(6) button:nth-child(1) {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: color, background-color 0.3s ease;
+  box-shadow: rgb(255, 83, 48, 0.35) 0px 10px 15px 0px;
+  transition: color 0.5s ease, background-color 1s ease;
+}
+.hero__forth_personal_details_form__sub:nth-child(6) button:nth-child(2) {
+  background-color: var(--btn-background-color);
+  color: var(--white-color);
+  box-shadow: rgba(255, 83, 48, 0.35) 0px 10px 15px 0px;
+}
+.hero__forth_personal_details_form__sub:nth-child(6) button:nth-child(1):hover {
+  background-color: var(--btn-black-color);
+  color: var(--black-color);
+  box-shadow: rgba(255, 83, 48, 0.35) 0px 10px 15px 0px;
+  border: 2px solid;
+}
+.hero__forth_personal_details_form__sub:nth-child(6) button:nth-child(2):hover {
+  box-shadow: rgba(100, 38, 26, 0.35) 0px 10px 15px 0px;
+}

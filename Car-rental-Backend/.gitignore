@@ -1,0 +1,4 @@
+/node_modules
+.env
+myprivate.pem
+mypublic.pem

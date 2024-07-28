@@ -1,0 +1,202 @@
+.feedback-component {
+  height: 44rem;
+  width: 100%;
+  padding: 1rem 6rem;
+  /* border: 5px solid; */
+  margin-bottom: 2rem;
+}
+.testimonial-form-container {
+  border: 5px solid;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.content {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 70%;
+  padding: 1rem 2rem;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-container-heading-first {
+  font-size: 2rem;
+  font-family: Poppins;
+  text-transform: capitalize;
+  color: var(--black-color);
+}
+.content-container-heading-second {
+  font-size: 1.2rem;
+  font-family: Rubik;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  color: var(--text-color);
+}
+.testimonial-slideshow {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 100%;
+
+  animation: slideshow 10s ease infinite;
+  background: url("https://www.ghoofy.com/wp-content/uploads/2022/10/4-Tips-For-Choosing-The-Right-Car-For-You-1536x864.png")
+    center center/cover no-repeat;
+}
+@keyframes slideshow {
+  0% {
+    background: url("https://static.vecteezy.com/system/resources/previews/013/412/864/non_2x/a-young-woman-in-a-car-dealership-chooses-a-new-car-together-with-a-manager-car-rental-concept-photo.jpg")
+      center center/cover no-repeat;
+  }
+  25% {
+    background: url("https://img.freepik.com/free-photo/stylish-elegant-couple-car-salon_1157-22639.jpg?size=626&ext=jpg&ga=GA1.1.901699741.1672043274&semt=ais")
+      center center/cover no-repeat;
+  }
+  50% {
+    background: url("https://img.freepik.com/premium-photo/young-woman-car-dealership-together-with-employee-car-dealer-chooses-new-car-car-rental-concept_88135-39179.jpg?w=740")
+      center center/cover no-repeat;
+  }
+  75% {
+    background: url("https://img.freepik.com/free-photo/handsome-businessman-husband-holding-keys-surprising-his-wife-with-new-car-vehicle-dealership-showroom_342744-737.jpg?size=626&ext=jpg&ga=GA1.1.901699741.1672043274&semt=ais")
+      center center/cover no-repeat;
+  }
+  100% {
+    background: url("https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15861.jpg?size=626&ext=jpg&ga=GA1.1.901699741.1672043274&semt=sph")
+      center center/cover no-repeat;
+  }
+}
+.testimonial-feedback-form {
+  /* border: 2px solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 20px;
+}
+.testimonial-feedback-hero {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid;  */
+  background-color: var(--field-color);
+  border-radius: 14px;
+  padding: 5px 20px;
+}
+.testimonial-feedback-hero:nth-child(1),
+.testimonial-feedback-hero:last-child {
+  justify-content: space-between;
+  background-color: transparent;
+  flex-direction: row;
+  padding: 0px;
+}
+.testimonial-feedback-hero:nth-child(1) div {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--field-color);
+  padding: 2px;
+  border-radius: 14px;
+  padding: 5px 20px;
+}
+.testimonial-feedback-hero input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  padding-top: 5px;
+  font-family: Rubik;
+  font-weight: 900;
+  margin-top: 2px;
+}
+.testimonial-feedback-hero label {
+  font-size: 15px;
+  font-family: Rubik;
+  font-weight: 900;
+  color: var(--text-color);
+  padding: 2px 0px;
+}
+.text-message {
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--field-color);
+  resize: none;
+  font-size: 14px;
+  padding-top: 5px;
+  font-family: Rubik;
+  font-weight: 900;
+}
+.count-character {
+  margin: 10px 0;
+  font-size: 12px;
+  font-family: Rubik;
+  text-align: right;
+}
+.testimonial-feedback-hero:last-child button {
+  border: none;
+  background-color: transparent;
+  height: 3.2rem;
+  width: 12rem;
+  border-radius: 22px;
+  font-size: 15px;
+  font-family: Rubik;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.testimonial-feedback-hero:last-child button:first-child {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: color, background-color 0.3s ease;
+  box-shadow: rgb(255, 83, 48, 0.35) 0px 10px 15px 0px;
+}
+.testimonial-feedback-hero:last-child button:first-child:hover {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border: 2px solid black;
+}
+.testimonial-feedback-hero:last-child button:last-child {
+  background-color: var(--btn-background-color);
+  color: var(--white-color);
+  box-shadow: rgba(255, 83, 48, 0.35) 0px 10px 15px 0px;
+}
+.testimonial-feedback-hero:last-child button:last-child:hover {
+  box-shadow: rgba(201, 81, 57, 0.35) 0px 10px 15px 0px;
+}
+.response {
+  text-align: center;
+  height: 2rem;
+  width: 100%;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* LOADING ANIMATION  */
+.loading-container {
+  display: block;
+  text-align: center;
+}
+
+.loading {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap");
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ff4d30;
+  border-radius: 25px;
+}
+.active {
+  color: #ff4d30;
+}
+.all__products_heading {
+  padding: 0rem 4rem;
+  font-size: 1.8rem;
+  font-family: Poppins;
+  color: var(--btn-background-color);
+}
+.no_orders__found {
+  padding: 1rem 3rem;
+  font-family: Poppins;
+  color: var(--btn-background-color);
+}
+.required__field {
+  font-size: 12px;
+  font-family: Rubik;
+  margin-top: 7px;
+  color: red;
+}

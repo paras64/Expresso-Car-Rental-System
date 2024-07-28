@@ -1,0 +1,355 @@
+/*Registration Page style */
+
+.registration,
+.login,
+#forgot-password {
+  /* border: 2px solid; */
+  height: 38.7rem;
+  width: 100%;
+  padding: 0rem 10rem;
+  background-color: var(--white-color);
+}
+.registration-container,
+.login-container,
+.forgot-password-container {
+  /* border: 1px solid transparent; */
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  height: 35rem;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background: url("https://images.pexels.com/photos/12964186/pexels-photo-12964186.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.registration-content {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 34rem;
+  padding: 1rem 2rem;
+}
+.svg-art {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 20rem;
+  overflow: hidden;
+}
+.svg-art > svg {
+  fill: white;
+  margin-top: -1px;
+}
+.topheading {
+  font-size: 1.4rem;
+  line-height: 4rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: poppins;
+}
+.content-part {
+  /* border: 2px solid; */
+  height: 32rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sub-heading,
+.login-link {
+  font-size: 16px;
+  font-family: Rubik;
+  color: #afafaf;
+  margin: 10px 0;
+  font-weight: 900;
+  word-spacing: 3px;
+  text-align: center;
+}
+.sub-heading-hero,
+.login-heading,
+.update-heading,
+.forgot-password-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: Poppins;
+  color: var(--black-color);
+  margin: 10px 0;
+  word-spacing: 5px;
+}
+.login-link {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.login-link a {
+  text-decoration: none;
+  color: rgb(100 100 214);
+}
+.form-box {
+  height: 22rem;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 21px;
+}
+
+.form-box-hero:nth-child(1),
+.form-box-hero:nth-child(4) {
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: space-between;
+}
+
+.form-box-hero div label,
+.login-form div label,
+.forgot-password-form div label,
+.update-password-form div label {
+  font-size: 15px;
+  font-family: Rubik;
+  font-weight: 900;
+  color: var(--text-color);
+  padding: 2px 0px;
+}
+.form-box-hero > div,
+.login-form > div,
+.forgot-password-form > div,
+.update-password-form > div {
+  display: flex;
+  background-color: var(--field-color);
+  flex-direction: column;
+  border-radius: 14px;
+  padding: 5px 20px;
+  /* border: 2px solid; */
+  height: 3.5rem;
+}
+.form-box-hero div input,
+.login-form > div input,
+.forgot-password-form > div input,
+.update-password-form div input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  padding-top: 5px;
+  font-family: Rubik;
+  font-weight: 900;
+}
+.form-box-hero:nth-child(4) button,
+.login-form > div:nth-child(3) button,
+.forgot-password-form > div:nth-child(2) button,
+.update-password-form > div:nth-child(3) button {
+  border: none;
+  background-color: transparent;
+  height: 3.2rem;
+  width: 12rem;
+  border-radius: 22px;
+  font-size: 15px;
+  font-family: Rubik;
+  cursor: pointer;
+  font-weight: 900;
+}
+.form-box-hero:nth-child(4) button:nth-child(1),
+.login-form > div:nth-child(3) button:nth-child(1),
+.forgot-password-form > div:nth-child(2) button:nth-child(1),
+.update-password-form > div:nth-child(3) button:nth-child(1) {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: color, background-color 0.3s ease;
+  box-shadow: rgb(255, 83, 48, 0.35) 0px 10px 15px 0px;
+}
+.form-box-hero:nth-child(4) button:nth-child(1):hover,
+.login-form > div:nth-child(3) button:nth-child(1):hover,
+.forgot-password-form > div:nth-child(2) button:nth-child(1):hover,
+.update-password-form > div:nth-child(3) button:nth-child(1):hover {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border: 2px solid black;
+}
+.form-box-hero:nth-child(4) button:nth-child(2),
+.login-form > div:nth-child(3) button:nth-child(2),
+.forgot-password-form > div:nth-child(2) button:nth-child(2),
+.update-password-form > div:nth-child(3) button:nth-child(2) {
+  background-color: var(--btn-background-color);
+  color: var(--white-color);
+  box-shadow: rgba(255, 83, 48, 0.35) 0px 10px 15px 0px;
+}
+.form-box-hero:nth-child(4) button:nth-child(2):hover,
+.login-form > div:nth-child(3) button:nth-child(2):hover,
+.forgot-password-form > div:nth-child(2) button:nth-child(2):hover,
+.update-password-form > div:nth-child(3) button:nth-child(2):hover {
+  box-shadow: rgba(201, 81, 57, 0.35) 0px 10px 15px 0px;
+}
+
+/* LOGIN STYLE*/
+.login-container {
+  background: transparent;
+}
+.login-content {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 4rem;
+}
+
+.login-image {
+  /* border: 2px solid; */
+  background: url("https://images.pexels.com/photos/1519192/pexels-photo-1519192.jpeg?auto=compress&cs=tinysrgb&w=600");
+  z-index: 1;
+  height: 100%;
+  width: 50%;
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-radius: 50px 0 0 50px;
+}
+.login-heading {
+  font-size: 1.8rem;
+}
+.login-form {
+  margin-top: 1.6rem;
+  /* border: 2px solid; */
+  height: 21rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.login-form > div:nth-child(3) {
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: transparent;
+  padding: 0px;
+}
+.password-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FORGOT PASSWORD */
+.forgot-password {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(100 100 214);
+  font-size: 15px;
+  padding: 0px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: rubik;
+}
+.forgot-password-container {
+  background: url("https://images.pexels.com/photos/804130/pexels-photo-804130.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.forgot-password-content {
+  /* border: 2px solid; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 4rem;
+  justify-content: center;
+}
+
+.forgot-password-form {
+  margin-top: 3rem;
+  /* border: 2px solid;   */
+  height: 12rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.forgot-password-form > div:nth-child(2),
+.update-password-form > div:nth-child(3) {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.message {
+  text-align: center;
+  height: 2rem;
+  width: 100%;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* CONFIRM PASSWORD */
+.confirm-password {
+  border: 2px solid;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--field-color);
+}
+.confirm-password-container {
+  /* border: 2px solid; */
+  height: 32rem;
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  align-items: center;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  border-radius: 20px;
+  background-color: var(--white-color);
+}
+.update-password-form {
+  /* border: 2px solid; */
+  margin: 10px 0 20px 0;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.update-password-form > div {
+  width: 100%;
+}
+.update-password-form > div:nth-child(3) {
+  width: 100%;
+  margin-top: 10px;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOADING ANIMATION  */
+.loading-container {
+  display: block;
+  text-align: center;
+}
+
+.loading {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
